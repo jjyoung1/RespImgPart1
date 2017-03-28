@@ -17,9 +17,9 @@ module.exports = function(grunt) {
             /*
             Change these:
             */
-            width: 800,
-            suffix: _mr,
-            quality: 80
+            width: '800',
+            suffix: '_mr',
+            quality: '80'
 
           }]
         },
