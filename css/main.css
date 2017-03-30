@@ -17,13 +17,30 @@ body {
 }
 
 article {
-
+    width: 100%;
+    max-width: 50em;
 }
 
 h1 {
 
 }
 
-img {
+article > img {
+    width: 100%;
+    height: auto;
+    max-width: 50em;
+}
 
+@media screen and (min-width: 600px) {
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
