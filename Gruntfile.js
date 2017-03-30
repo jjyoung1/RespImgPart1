@@ -86,7 +86,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-mkdir');
-    grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'img_compress']);
     grunt.registerTask('img_compress', ['imagemin']);
