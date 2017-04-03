@@ -31,7 +31,7 @@ module.exports = function (grunt) {
                  */
                 files: [{
                     expand: true,
-                    src: ['*.{gif,jpg,png}'],
+                    src: ['*.{gif,jpg,png,svg}'],
                     cwd: 'images_src/',
                     dest: 'images/'
                 }]
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
             dev: {
                 files: [{
                     expand: true,
-                    src: 'images_src/fixed/*.{gif,jpg,png}',
+                    src: 'images_src/fixed/*.{gif,jpg,png,svg}',
                     dest: 'images/'
                 }]
             }
@@ -75,7 +75,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,                  // Enable dynamic expansion
                     cwd: 'images/',                   // Src matches are relative to this path
-                    src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+                    src: ['**/*.{png,jpg,gif,svg}'],   // Actual patterns to match
                     dest: 'images/'                  // Destination path prefix
                 }]
             }

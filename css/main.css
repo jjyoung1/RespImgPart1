@@ -1,24 +1,23 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 
 body {
 
 }
 
+header {
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
 article {
     width: 100%;
     max-width: 50em;
+}
+
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
 }
 
 h1 {
@@ -47,4 +46,34 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+[class*="zocial-"] {
+    /* margin: 10px;
+     margin-top: 15px;*/
+    margin-right: 5px;
+    margin-left: 10px;
+}
+[class*="zocial-"]:first-of-type {
+    margin-left:0;
+}
+
+div#social {
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
